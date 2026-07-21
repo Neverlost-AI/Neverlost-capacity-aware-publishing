@@ -1,0 +1,99 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "patients-paradox-short-v0.1",
+  "status": "REVIEW_ONLY",
+  "source": {
+    "path": "source/PATIENTS_PARADOX_APPROVED_v1_1.txt",
+    "sha256": "67ed51d8918b19ce05f38f1f66b4fc18cc4e9c3ed6754dde9b7e943d579be01d",
+    "authority": "approved_publication_text_v1.1"
+  },
+  "brand": {
+    "logo": "assets/NVLT_Blue_Inlaid_Draft_v0_2.png",
+    "logo_sha256": "3de312b1180cb0cada57ac3f6ffc720a1932943d376f1f1683e80ae362f06daf",
+    "navy": "#0b243d",
+    "blue": "#5aa6d1",
+    "paper": "#f5f8fb",
+    "ink": "#142b44",
+    "footer": "NEVERLOST · REVIEW-ONLY"
+  },
+  "audio_segments": [
+    {
+      "path": "audio/patients_paradox_excerpt_01.wav",
+      "sha256": "9896fdc3630e7e9a502be338806005506f3504603cfb67cfe7b0b0cb74eae39c",
+      "source_text": "Many patients possess social support but lack medical recognition. I possessed increasing medical recognition while losing social support. At first this appeared to be a contradiction. Later I realized it was a paradox. Both realities were true. Both patients were suffering. Both patients were searching for the same thing: stability."
+    },
+    {
+      "path": "audio/patients_paradox_excerpt_02.wav",
+      "sha256": "08dfee86424fcf3c2cd8158db324022b7ae68141873914a2a91f6a717e3200d5",
+      "source_text": "Reality still has to be held by people — a family, a physician, a reviewer. What Neverlost adds is a way to carry that reality faithfully between them."
+    }
+  ],
+  "scenes": [
+    {
+      "duration": 4.3,
+      "eyebrow": "THE PATIENT'S PARADOX",
+      "headline": "SOCIAL SUPPORT",
+      "support": "without medical recognition",
+      "theme": "navy"
+    },
+    {
+      "duration": 3.8,
+      "eyebrow": "THE OPPOSITE REALITY",
+      "headline": "MEDICAL RECOGNITION",
+      "support": "while losing social support",
+      "theme": "paper"
+    },
+    {
+      "duration": 6.2,
+      "eyebrow": "AT FIRST",
+      "headline": "A contradiction?",
+      "support": "Later, I realized it was a paradox.",
+      "theme": "blue"
+    },
+    {
+      "duration": 10.63,
+      "eyebrow": "BOTH REALITIES WERE TRUE",
+      "headline": "Both patients were searching for the same thing:",
+      "support": "STABILITY",
+      "theme": "paper"
+    },
+    {
+      "duration": 7.07,
+      "eyebrow": "FROM PARADOX TO PATHWAY",
+      "headline": "Reality still has to be held by people.",
+      "support": "A family · a physician · a reviewer",
+      "theme": "navy"
+    },
+    {
+      "duration": 4.93,
+      "eyebrow": "NEVERLOST",
+      "headline": "Carry reality faithfully between them.",
+      "support": "Watch the full Patient's Paradox",
+      "theme": "navy"
+    }
+  ],
+  "captions": [
+    {"start": 0.0, "end": 4.3, "text": "Many patients possess social support\nbut lack medical recognition."},
+    {"start": 4.3, "end": 8.1, "text": "I possessed increasing medical recognition\nwhile losing social support."},
+    {"start": 8.1, "end": 11.5, "text": "At first this appeared to be a contradiction."},
+    {"start": 11.5, "end": 14.3, "text": "Later I realized it was a paradox."},
+    {"start": 14.3, "end": 17.6, "text": "Both realities were true."},
+    {"start": 17.6, "end": 20.4, "text": "Both patients were suffering."},
+    {"start": 20.4, "end": 24.93, "text": "Both patients were searching for\nthe same thing: stability."},
+    {"start": 24.93, "end": 29.4, "text": "Reality still has to be held by people —"},
+    {"start": 29.4, "end": 32.0, "text": "a family, a physician, a reviewer."},
+    {"start": 32.0, "end": 36.93, "text": "What Neverlost adds is a way to carry\nthat reality faithfully between them."}
+  ],
+  "output": {
+    "directory": "output/patients-paradox-short",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "filename": "PATIENTS_PARADOX_SHORT_REVIEW_ONLY_v0_2.mp4",
+    "captions_filename": "PATIENTS_PARADOX_SHORT_CAPTIONS_v0_2.srt",
+    "contact_sheet_filename": "PATIENTS_PARADOX_SHORT_QA_CONTACT_SHEET_v0_2.jpg",
+    "report_filename": "PATIENTS_PARADOX_SHORT_BUILD_REPORT_v0_2.json",
+    "capacity_plan_filename": "PATIENTS_PARADOX_SHORT_CAPACITY_PLAN_v0_2.json",
+    "resume_checkpoint_filename": "PATIENTS_PARADOX_SHORT_RESUME_CHECKPOINT_v0_2.md"
+  }
+}

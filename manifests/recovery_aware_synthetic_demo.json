@@ -1,0 +1,117 @@
+{
+  "schema_version": "1.1",
+  "artifact_id": "recovery-aware-synthetic-demo-v0.1",
+  "status": "REVIEW_ONLY",
+  "source": {
+    "path": "fixtures/recovery-aware-demo/RECOVERY_AWARE_APPROVED_SOURCE_v0_1.txt",
+    "sha256": "04f32d05ae6f425ddb95963772047e71dbdb0232dfe41926973f7da3714020f4",
+    "authority": "synthetic_approved_test_source"
+  },
+  "brand": {
+    "navy": "#17263a",
+    "blue": "#3f9bc6",
+    "paper": "#f7fafc",
+    "ink": "#182b40",
+    "footer": "CAPACITY-AWARE PUBLISHING · SYNTHETIC TEST"
+  },
+  "audio_segments": [
+    {
+      "path": "fixtures/recovery-aware-demo/audio/recovery-aware-01.wav",
+      "sha256": "642a12ca7f317feb1e800d08a092a9f387522bce431f2df67f583d1f4cac4ec3",
+      "source_text": "Publishing one approved idea should not require rebuilding the same work across scripts, slides, narration, captions, vertical video, and platform copy. For disabled and energy-limited creators, that repetition can become the barrier to publishing at all."
+    },
+    {
+      "path": "fixtures/recovery-aware-demo/audio/recovery-aware-02.wav",
+      "sha256": "dfaad6c135ea61f49100170bcbd4f6d8a2049ac3cd656bb480662c150dcac6c5",
+      "source_text": "The workflow deliberately stops at review-only. The author remains responsible for meaning, rights, final approval, and publication. A I reduces repetitive production and physical strain. It does not replace authorship or human authority."
+    }
+  ],
+  "scenes": [
+    {
+      "duration": 5.0,
+      "eyebrow": "RECOVERY-AWARE MODE",
+      "headline": "ONE APPROVED IDEA",
+      "support": "not another exhausting rebuild",
+      "theme": "navy"
+    },
+    {
+      "duration": 5.0,
+      "eyebrow": "THE HIDDEN BURDEN",
+      "headline": "SCRIPTS · SLIDES · AUDIO",
+      "support": "captions · video · platform copy",
+      "theme": "paper"
+    },
+    {
+      "duration": 8.45,
+      "eyebrow": "ASSISTIVE DESIGN",
+      "headline": "REDUCE REPETITION",
+      "support": "preserve capacity for human decisions",
+      "theme": "blue"
+    },
+    {
+      "duration": 5.0,
+      "eyebrow": "GOVERNED STOP",
+      "headline": "REVIEW-ONLY",
+      "support": "automation cannot approve itself",
+      "theme": "paper"
+    },
+    {
+      "duration": 5.0,
+      "eyebrow": "HUMAN AUTHORITY",
+      "headline": "MEANING · RIGHTS · APPROVAL",
+      "support": "publication stays with the creator",
+      "theme": "navy"
+    },
+    {
+      "duration": 7.7,
+      "eyebrow": "CAPACITY BEFORE OUTPUT",
+      "headline": "AI REDUCES STRAIN",
+      "support": "it does not replace authorship",
+      "theme": "navy"
+    }
+  ],
+  "captions": [
+    {
+      "start": 0.0,
+      "end": 11.2,
+      "text": "Publishing one approved idea should not require rebuilding the same work across scripts, slides, narration, captions, vertical video, and platform copy."
+    },
+    {
+      "start": 11.2,
+      "end": 18.45,
+      "text": "For disabled and energy-limited creators, that repetition can become the barrier to publishing at all."
+    },
+    {
+      "start": 18.45,
+      "end": 22.4,
+      "text": "The workflow deliberately stops at review-only."
+    },
+    {
+      "start": 22.4,
+      "end": 28.2,
+      "text": "The author remains responsible for meaning, rights, final approval, and publication."
+    },
+    {
+      "start": 28.2,
+      "end": 32.3,
+      "text": "A I reduces repetitive production and physical strain."
+    },
+    {
+      "start": 32.3,
+      "end": 36.15,
+      "text": "It does not replace authorship or human authority."
+    }
+  ],
+  "output": {
+    "directory": "output/recovery-aware-demo",
+    "width": 1080,
+    "height": 1920,
+    "fps": 30,
+    "filename": "RECOVERY_AWARE_SYNTHETIC_DEMO_REVIEW_ONLY_v0_1.mp4",
+    "captions_filename": "RECOVERY_AWARE_SYNTHETIC_DEMO_CAPTIONS_v0_1.srt",
+    "contact_sheet_filename": "RECOVERY_AWARE_SYNTHETIC_DEMO_QA_CONTACT_SHEET_v0_1.jpg",
+    "report_filename": "RECOVERY_AWARE_SYNTHETIC_DEMO_BUILD_REPORT_v0_1.json",
+    "capacity_plan_filename": "RECOVERY_AWARE_SYNTHETIC_DEMO_CAPACITY_PLAN_v0_1.json",
+    "resume_checkpoint_filename": "RECOVERY_AWARE_SYNTHETIC_DEMO_RESUME_CHECKPOINT_v0_1.md"
+  }
+}

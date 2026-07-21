@@ -1,0 +1,51 @@
+{
+  "artifact_id": "patients-paradox-short-v0.1",
+  "artifact": "output/patients-paradox-short/PATIENTS_PARADOX_SHORT_REVIEW_ONLY_v0_2.mp4",
+  "captions": "output/patients-paradox-short/PATIENTS_PARADOX_SHORT_CAPTIONS_v0_2.srt",
+  "contact_sheet": "output/patients-paradox-short/PATIENTS_PARADOX_SHORT_QA_CONTACT_SHEET_v0_2.jpg",
+  "governance": {
+    "manifest_sha256": "212c46142f4101f8ab8558af61114d22799d1f69f97292ac0d83ba5998974fe3",
+    "source_sha256": "67ed51d8918b19ce05f38f1f66b4fc18cc4e9c3ed6754dde9b7e943d579be01d",
+    "input_hashes": {
+      "source": "67ed51d8918b19ce05f38f1f66b4fc18cc4e9c3ed6754dde9b7e943d579be01d",
+      "audio:patients_paradox_excerpt_01.wav": "9896fdc3630e7e9a502be338806005506f3504603cfb67cfe7b0b0cb74eae39c",
+      "audio:patients_paradox_excerpt_02.wav": "08dfee86424fcf3c2cd8158db324022b7ae68141873914a2a91f6a717e3200d5",
+      "logo:NVLT_Blue_Inlaid_Draft_v0_2.png": "3de312b1180cb0cada57ac3f6ffc720a1932943d376f1f1683e80ae362f06daf"
+    },
+    "audio_duration": 36.93,
+    "scene_duration": 36.93,
+    "caption_end": 36.93,
+    "source_checks": 2,
+    "caption_checks": 10,
+    "status": "VALIDATED_FOR_REVIEW_BUILD"
+  },
+  "output_hashes": {
+    "video": "f3ec69928035c45bbeed4f510a992d176c9bf4c2114d922143b675558040ad4b",
+    "captions": "bf216bf1a7c2b7f03286a6e71a672d8b495f9ab436c211e2f05612e8ee8c4458",
+    "contact_sheet": "8d79bc0e9ecadcb51e04c11069f0ada00dec0afe8d736d6e3feb14842d605b1b"
+  },
+  "media_probe": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "36.933333"
+    }
+  },
+  "capacity_plan": "output/patients-paradox-short/PATIENTS_PARADOX_SHORT_CAPACITY_PLAN_v0_2.json",
+  "resume_checkpoint": "output/patients-paradox-short/PATIENTS_PARADOX_SHORT_RESUME_CHECKPOINT_v0_2.md",
+  "capacity_status": "REVIEW_ONLY_CHECKPOINT_SAVED",
+  "release_boundary": "Human review and upload required; pipeline does not publish."
+}

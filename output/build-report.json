@@ -1,0 +1,35 @@
+{
+  "artifact_id": "patients-paradox-short-v0.1",
+  "artifact": "output/PATIENTS_PARADOX_SHORT_REVIEW_ONLY_v0_1.mp4",
+  "captions": "output/PATIENTS_PARADOX_SHORT_CAPTIONS_v0_1.srt",
+  "contact_sheet": "output/PATIENTS_PARADOX_SHORT_QA_CONTACT_SHEET_v0_1.jpg",
+  "governance": {
+    "source_sha256": "67ed51d8918b19ce05f38f1f66b4fc18cc4e9c3ed6754dde9b7e943d579be01d",
+    "audio_duration": 36.93,
+    "scene_duration": 36.93,
+    "caption_end": 36.93,
+    "source_checks": 2,
+    "status": "VALIDATED_FOR_REVIEW_BUILD"
+  },
+  "media_probe": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "36.933333"
+    }
+  },
+  "release_boundary": "Human review and upload required; pipeline does not publish."
+}

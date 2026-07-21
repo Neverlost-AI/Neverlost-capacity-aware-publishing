@@ -1,0 +1,50 @@
+{
+  "artifact_id": "recovery-aware-synthetic-demo-v0.1",
+  "artifact": "output/recovery-aware-demo/RECOVERY_AWARE_SYNTHETIC_DEMO_REVIEW_ONLY_v0_1.mp4",
+  "captions": "output/recovery-aware-demo/RECOVERY_AWARE_SYNTHETIC_DEMO_CAPTIONS_v0_1.srt",
+  "contact_sheet": "output/recovery-aware-demo/RECOVERY_AWARE_SYNTHETIC_DEMO_QA_CONTACT_SHEET_v0_1.jpg",
+  "governance": {
+    "manifest_sha256": "fed569c7c2bf8a37f75cfa59dc9a5c3266ecea5ae300fa72c6176a2d58f99c73",
+    "source_sha256": "04f32d05ae6f425ddb95963772047e71dbdb0232dfe41926973f7da3714020f4",
+    "input_hashes": {
+      "source": "04f32d05ae6f425ddb95963772047e71dbdb0232dfe41926973f7da3714020f4",
+      "audio:recovery-aware-01.wav": "642a12ca7f317feb1e800d08a092a9f387522bce431f2df67f583d1f4cac4ec3",
+      "audio:recovery-aware-02.wav": "dfaad6c135ea61f49100170bcbd4f6d8a2049ac3cd656bb480662c150dcac6c5"
+    },
+    "audio_duration": 36.15,
+    "scene_duration": 36.15,
+    "caption_end": 36.15,
+    "source_checks": 2,
+    "caption_checks": 6,
+    "status": "VALIDATED_FOR_REVIEW_BUILD"
+  },
+  "output_hashes": {
+    "video": "f8f08a4f69a17c439e7e49a3b3f88a5298d285542ab80f9c462f87fc6cb4158e",
+    "captions": "16f593f849c57103da3553d0a8baca2c1de0d1f2db27f8ae475d8c18b8aae46c",
+    "contact_sheet": "02b4490b8811744e0c51ea21432fdfa4818c823fbd0ec9c27b35d9fa1c770568"
+  },
+  "media_probe": {
+    "programs": [],
+    "streams": [
+      {
+        "codec_name": "h264",
+        "codec_type": "video",
+        "width": 1080,
+        "height": 1920,
+        "r_frame_rate": "30/1"
+      },
+      {
+        "codec_name": "aac",
+        "codec_type": "audio",
+        "r_frame_rate": "0/0"
+      }
+    ],
+    "format": {
+      "duration": "36.166667"
+    }
+  },
+  "capacity_plan": "output/recovery-aware-demo/RECOVERY_AWARE_SYNTHETIC_DEMO_CAPACITY_PLAN_v0_1.json",
+  "resume_checkpoint": "output/recovery-aware-demo/RECOVERY_AWARE_SYNTHETIC_DEMO_RESUME_CHECKPOINT_v0_1.md",
+  "capacity_status": "REVIEW_ONLY_CHECKPOINT_SAVED",
+  "release_boundary": "Human review and upload required; pipeline does not publish."
+}

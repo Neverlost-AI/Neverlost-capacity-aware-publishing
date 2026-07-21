@@ -1,0 +1,27 @@
+1
+00:00:00,220 --> 00:00:10,070
+Publishing one idea across scripts, captions, video, and platform copy can exhaust disabled and energy-limited creators.
+
+2
+00:00:10,720 --> 00:00:22,920
+Recovery-Aware Mode starts with a user-selected minute budget. It automates mechanical work, schedules what fits, and saves deferred decisions in a resume checkpoint.
+
+3
+00:00:23,570 --> 00:00:34,470
+A manifest locks approved source, audio, timing, brand assets, and review status. A second logo-free case proves the runner is reusable.
+
+4
+00:00:35,120 --> 00:00:47,945
+The runner blocks changed inputs, unapproved narration, unsafe captions, timing errors, path escapes, and automated approval. It also hashes every finished output.
+
+5
+00:00:48,595 --> 00:00:59,570
+The first build is a thirty-six point nine second vertical Short with source-bound narration, ten caption cues, a media probe, and visual Q A.
+
+6
+00:01:00,220 --> 00:01:12,595
+Codex with G P T five point six Sol generalized the runner, built Recovery Mode, and expanded the suite to fifteen passing tests across two cases.
+
+7
+00:01:13,245 --> 00:01:24,020
+Artificial intelligence reduces repetitive production and physical strain. The creator keeps meaning, rights, approval, and publication authority.

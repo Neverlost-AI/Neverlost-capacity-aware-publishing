@@ -1,0 +1,71 @@
+{
+  "artifact_id": "patients-paradox-short-v0.1",
+  "status": "REVIEW_ONLY_CHECKPOINT_SAVED",
+  "authority_boundary": "User-selected session-planning input only; not a medical or work-capacity determination.",
+  "profile": "recovery",
+  "active_minute_budget": 8.0,
+  "completed_active_minutes": 1.6,
+  "active_minutes_used_or_scheduled": 7.6,
+  "estimated_assisted_minutes_for_all_remaining_tasks": 12.0,
+  "estimated_manual_baseline_minutes": 17.0,
+  "estimated_manual_app_switches": 5,
+  "estimate_boundary": "Workflow estimates for planning; not measured user outcomes.",
+  "completed_task_ids": [
+    "build_captions",
+    "build_qa",
+    "render_media",
+    "start_build"
+  ],
+  "scheduled_now": [
+    {
+      "id": "visual_review",
+      "label": "Review the visual contact sheet",
+      "kind": "human",
+      "active_minutes": 4.0,
+      "manual_baseline_minutes": 4.0,
+      "manual_app_switches": 1
+    },
+    {
+      "id": "caption_review",
+      "label": "Spot-check captions against narration",
+      "kind": "human",
+      "active_minutes": 2.0,
+      "manual_baseline_minutes": 5.0,
+      "manual_app_switches": 1
+    }
+  ],
+  "deferred": [
+    {
+      "id": "metadata",
+      "label": "Approve title, description, and platform copy",
+      "kind": "human",
+      "active_minutes": 3.0,
+      "manual_baseline_minutes": 5.0,
+      "manual_app_switches": 2
+    },
+    {
+      "id": "upload",
+      "label": "Upload the approved media package",
+      "kind": "human",
+      "active_minutes": 2.0,
+      "manual_baseline_minutes": 2.0,
+      "manual_app_switches": 1
+    },
+    {
+      "id": "release_decision",
+      "label": "Make the final publication decision",
+      "kind": "human",
+      "active_minutes": 1.0,
+      "manual_baseline_minutes": 1.0,
+      "manual_app_switches": 0
+    }
+  ],
+  "next_task": {
+    "id": "metadata",
+    "label": "Approve title, description, and platform copy",
+    "kind": "human",
+    "active_minutes": 3.0,
+    "manual_baseline_minutes": 5.0,
+    "manual_app_switches": 2
+  }
+}

@@ -1,0 +1,11 @@
+output/frames/
+output/narration.wav
+output/scenes.ffconcat
+output/visuals.mp4
+output/demo-audio/
+output/demo-images.ffconcat
+output/demo-narration.wav
+output/demo-visuals.mp4
+.kokoro-runtime/
+__pycache__/
+*.pyc

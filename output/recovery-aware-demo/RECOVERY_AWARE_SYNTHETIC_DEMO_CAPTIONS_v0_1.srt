@@ -1,0 +1,23 @@
+1
+00:00:00,000 --> 00:00:11,200
+Publishing one approved idea should not require rebuilding the same work across scripts, slides, narration, captions, vertical video, and platform copy.
+
+2
+00:00:11,200 --> 00:00:18,450
+For disabled and energy-limited creators, that repetition can become the barrier to publishing at all.
+
+3
+00:00:18,450 --> 00:00:22,400
+The workflow deliberately stops at review-only.
+
+4
+00:00:22,400 --> 00:00:28,200
+The author remains responsible for meaning, rights, final approval, and publication.
+
+5
+00:00:28,200 --> 00:00:32,300
+A I reduces repetitive production and physical strain.
+
+6
+00:00:32,300 --> 00:00:36,150
+It does not replace authorship or human authority.
