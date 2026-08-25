@@ -1,4 +1,6 @@
-# Judge Quickstart
+# Historical Build Week Judge Quickstart
+
+> Archived competition artifact. This file preserves the original judge-oriented walkthrough. For the current portfolio quickstart and repository status, use [`README.md`](README.md). The exact submission-era repository state is preserved on `capacity-aware-publishing-2026-submission-final`.
 
 ## See the result
 
