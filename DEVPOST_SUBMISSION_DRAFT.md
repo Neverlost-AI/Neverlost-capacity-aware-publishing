@@ -1,4 +1,6 @@
-# Devpost Submission Draft
+# Historical Devpost Submission Draft
+
+> Archived Build Week artifact. This file preserves the competition-era submission copy and should not be read as the current repository status. For the portfolio-facing project description and quickstart, use [`README.md`](README.md). The exact submission-era repository state is preserved on `capacity-aware-publishing-2026-submission-final`.
 
 ## Project name
 
@@ -85,7 +87,9 @@ Judges can also open the approved publication copies, reproducible case outputs,
 
 The first Neverlost project carries complex human evidence across healthcare, daily-life, benefits, education, and vocational decision systems. This project addresses a different user, task, implementation, and output: it carries **approved creative source material** into accessible media packages for disabled and energy-limited creators. It shares Neverlost's human-authority principle but does not run the Full Human Pathway evidence workflow.
 
-## Remaining submission fields
+## Historical remaining-submission fields
+
+The list below is preserved exactly as competition-era planning context and is not a current task list:
 
 - Repository URL
 - `/feedback` Codex Session ID
