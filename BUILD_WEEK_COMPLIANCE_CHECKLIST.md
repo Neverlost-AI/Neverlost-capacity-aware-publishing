@@ -1,4 +1,6 @@
-# Build Week Compliance Checklist
+# Historical Build Week Compliance Checklist
+
+> Archived competition artifact. This checklist preserves the state of the Build Week submission process and is not a current release checklist. For the current public-portfolio status, use [`README.md`](README.md). The exact submission-era repository state is preserved on `capacity-aware-publishing-2026-submission-final`.
 
 - [x] Working, reproducible project built with Codex and GPT-5.6
 - [x] Category selected: Developer Tools
@@ -19,3 +21,5 @@
 - [ ] Private repository shared with `testing@devpost.com` and `build-week-event@openai.com`, if private
 - [ ] `/feedback` Codex Session ID entered
 - [ ] Final submission is submitted, not left as a draft
+
+The unchecked items above are retained as historical checklist state rather than being retroactively rewritten after the competition.
