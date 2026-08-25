@@ -1,3 +1,4 @@
+# Generated media and local runtime artifacts
 output/frames/
 output/narration.wav
 output/scenes.ffconcat
@@ -7,5 +8,41 @@ output/demo-images.ffconcat
 output/demo-narration.wav
 output/demo-visuals.mp4
 .kokoro-runtime/
+
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Node/local tooling
+node_modules/
+
+# Environment and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials*.json
+*credentials*.json
+client_secret*.json
+client-secrets*.json
+token*.json
+*.token.json
+oauth*.json
+
+# Upload receipts / local operational state
+receipts/
+output/upload-receipts/
+
+# Editors / OS / logs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
